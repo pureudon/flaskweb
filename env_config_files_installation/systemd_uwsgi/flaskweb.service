@@ -1,4 +1,4 @@
-Description=uWSGI_pricing_service
+Description=uWSGI_flaskweb_service
 [Service]
 ExecStart=/var/www/html/flaskweb/venv/bin/uwsgi --master --emperor /var/www/html/flaskweb/uwsgi.ini --die-on-term --uid pureudonhk --gid pureudonhk --logto /var/www/html/flaskweb/log/emperor.l
 og
